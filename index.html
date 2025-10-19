@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Paradise</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Hotel Paradise</h1>
+    <nav>
+      <a href="#rooms">Rooms</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Welcome to Hotel Paradise</h2>
+    <p>Experience luxury and comfort at the best prices.</p>
+    <button onclick="scrollToBooking()">Book Now</button>
+  </section>
+
+  <section id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room-list">
+      <div class="room">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Deluxe Room"/>
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with sea view, king-sized bed, and modern amenities.</p>
+      </div>
+      <div class="room">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Suite"/>
+        <h3>Suite</h3>
+        <p>Luxury suite with living area, jacuzzi, and complimentary breakfast.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Free WiFi</li>
+      <li>24/7 Room Service</li>
+      <li>Spa & Wellness</li>
+      <li>Swimming Pool</li>
+      <li>Airport Shuttle</li>
+    </ul>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Stay</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <input type="number" placeholder="Nights" min="1" required />
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="bookingMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hotel Paradise. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
