@@ -14,12 +14,7 @@ Features
 - Accessible HTML semantics and keyboard-friendly controls
 - Light-weight: no build step required for the basic version
 
-Tech stack
-- HTML5
-- CSS3 (mobile-first, responsive)
-- Vanilla JavaScript (ES6+)
-- Optional: instructions included for converting to React/Vite
-
+  
 Project structure
 - index.html — main entry
 - styles.css — main stylesheet
@@ -30,11 +25,3 @@ Booking form behavior
 - Client-side validation prevents empty submissions.
 - After submit the form displays a confirmation message and resets.
 - For production, replace the mock submit with an API call (examples below).
-
-How to contribute
-1. Fork the repo
-2. Create a branch: git checkout -b feat/your-feature
-3. Commit your changes and push: git push origin feat/your-feature
-4. Open a pull request describing your changes
-- Keep changes focused per PR
-- Add screenshots for visual changes
